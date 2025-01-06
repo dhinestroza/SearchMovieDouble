@@ -12,6 +12,4 @@ import { Movies } from 'app/Models/searchMovie';
 })
 export class CardMovieComponent {
   movie = input.required<Movies>();
-
-
 }

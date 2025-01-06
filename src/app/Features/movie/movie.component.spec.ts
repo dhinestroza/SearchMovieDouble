@@ -1,10 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { MovieComponent } from './movie.component';
-import { CardMovieComponent } from 'app/Shared/components/card-movie/card-movie.component';
-import { ReactiveFormsModule } from '@angular/forms';
-import { ServiceService } from 'app/Core/services/service.service';
-import { CommonModule } from '@angular/common';
+import { HttpClientModule } from '@angular/common/http';
 
 describe('MovieComponent', () => {
   let component: MovieComponent;
@@ -13,8 +10,8 @@ describe('MovieComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations:[MovieComponent,CardMovieComponent],
-      imports: [CommonModule,ReactiveFormsModule]
+      declarations:[],
+      imports: [HttpClientModule]
     })
     .compileComponents();
     
