@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Movie Search App - Technical Documentation
 
 ## Descripción del Proyecto
@@ -90,3 +91,6 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 >>>>>>> 278e9ef (initial commit)
+=======
+# SearchMovieDouble
+>>>>>>> 6b4c0190a71d10c85038169b0e346803349671a0
